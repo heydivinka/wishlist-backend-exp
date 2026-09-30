@@ -1,0 +1,19 @@
+{
+  "name": "wishlist-backend",
+  "version": "1.0.0",
+  "description": "Supabase Wishlist API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@vercel/node": "^16.0.2"
+  }
+}
